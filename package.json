@@ -1,6 +1,6 @@
 {
-  "name": "postcss-rtl",
-  "version": "1.7.3",
+  "name": "@evilaliv3/postcss-rtl",
+  "version": "1.7.5",
   "description": "PostCSS plugin for RTL-optimizations",
   "keywords": [
     "postcss",
@@ -14,7 +14,10 @@
   ],
   "author": "Vladimir Kalinichev <wrumly@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/vkalinichev/postcss-rtl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkalinichev/postcss-rtl.git"
+  },
   "bugs": {
     "url": "https://github.com/vkalinichev/postcss-rtl/issues"
   },
@@ -47,5 +50,8 @@
   },
   "engines": {
     "node": ">=0.12"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
